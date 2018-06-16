@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/eleven-api/tests" isTestSource="true" packagePrefix="Tests\" />
+      <sourceFolder url="file://$MODULE_DIR$/eleven-api/src/AppBundle" isTestSource="false" packagePrefix="AppBundle\" />
+      <excludeFolder url="file://$MODULE_DIR$/eleven-api/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/eleven-api/vendor/doctrine/annotations" />
+      <excludeFolder url="file://$MODULE_DIR$/eleven-api/vendor/doctrine/cache" />
+      <excludeFolder url="file://$MODULE_DIR$/eleven-api/vendor/doctrine/collections" />
+      <excludeFolder url="file://$MODULE_DIR$/eleven-api/vendor/doctrine/common" />
+      <excludeFolder url="file://$MODULE_DIR$/eleven-api/vendor/doctrine/data-fixtures" />
+      <excludeFolder url="file://$MODULE_DIR$/eleven-api/vendor/doctrine/dbal" />
+      <excludeFolder url="file://$MODULE_DIR$/eleven-api/vendor/doctrine/doctrine-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/eleven-api/vendor/doctrine/doctrine-cache-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/eleven-api/vendor/doctrine/doctrine-fixtures-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/eleven-api/vendor/doctrine/inflector" />
+      <excludeFolder url="file://$MODULE_DIR$/eleven-api/vendor/doctrine/instantiator" />
+      <excludeFolder url="file://$MODULE_DIR$/eleven-api/vendor/doctrine/lexer" />
+      <excludeFolder url="file://$MODULE_DIR$/eleven-api/vendor/doctrine/orm" />
+      <excludeFolder url="file://$MODULE_DIR$/eleven-api/vendor/fig/link-util" />
+      <excludeFolder url="file://$MODULE_DIR$/eleven-api/vendor/friendsofsymfony/rest-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/eleven-api/vendor/incenteev/composer-parameter-handler" />
+      <excludeFolder url="file://$MODULE_DIR$/eleven-api/vendor/jdorn/sql-formatter" />
+      <excludeFolder url="file://$MODULE_DIR$/eleven-api/vendor/monolog/monolog" />
+      <excludeFolder url="file://$MODULE_DIR$/eleven-api/vendor/nelmio/cors-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/eleven-api/vendor/paragonie/random_compat" />
+      <excludeFolder url="file://$MODULE_DIR$/eleven-api/vendor/psr/cache" />
+      <excludeFolder url="file://$MODULE_DIR$/eleven-api/vendor/psr/container" />
+      <excludeFolder url="file://$MODULE_DIR$/eleven-api/vendor/psr/link" />
+      <excludeFolder url="file://$MODULE_DIR$/eleven-api/vendor/psr/log" />
+      <excludeFolder url="file://$MODULE_DIR$/eleven-api/vendor/psr/simple-cache" />
+      <excludeFolder url="file://$MODULE_DIR$/eleven-api/vendor/sensio/distribution-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/eleven-api/vendor/sensio/framework-extra-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/eleven-api/vendor/sensio/generator-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/eleven-api/vendor/sensiolabs/security-checker" />
+      <excludeFolder url="file://$MODULE_DIR$/eleven-api/vendor/swiftmailer/swiftmailer" />
+      <excludeFolder url="file://$MODULE_DIR$/eleven-api/vendor/symfony/monolog-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/eleven-api/vendor/symfony/phpunit-bridge" />
+      <excludeFolder url="file://$MODULE_DIR$/eleven-api/vendor/symfony/polyfill-apcu" />
+      <excludeFolder url="file://$MODULE_DIR$/eleven-api/vendor/symfony/polyfill-ctype" />
+      <excludeFolder url="file://$MODULE_DIR$/eleven-api/vendor/symfony/polyfill-intl-icu" />
+      <excludeFolder url="file://$MODULE_DIR$/eleven-api/vendor/symfony/polyfill-mbstring" />
+      <excludeFolder url="file://$MODULE_DIR$/eleven-api/vendor/symfony/polyfill-php56" />
+      <excludeFolder url="file://$MODULE_DIR$/eleven-api/vendor/symfony/polyfill-php70" />
+      <excludeFolder url="file://$MODULE_DIR$/eleven-api/vendor/symfony/polyfill-util" />
+      <excludeFolder url="file://$MODULE_DIR$/eleven-api/vendor/symfony/swiftmailer-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/eleven-api/vendor/symfony/symfony" />
+      <excludeFolder url="file://$MODULE_DIR$/eleven-api/vendor/twig/twig" />
+      <excludeFolder url="file://$MODULE_DIR$/eleven-api/vendor/willdurand/jsonp-callback-validator" />
+      <excludeFolder url="file://$MODULE_DIR$/eleven-api/vendor/willdurand/negotiation" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

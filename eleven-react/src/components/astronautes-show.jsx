@@ -8,13 +8,25 @@ class AstronautesShow extends Component{
     }
 
     componentDidMount(){
-        axios.get("http://localhost/eleven-api/web/app_dev.php/astronautes")
+        axios.get("http://localhost/eleven-api-react/eleven-api/web/app_dev.php/astronautes")
             .then(res => {
                 const astronautes = res.data;
-                this.setState({astronautes})
+                this.setState({astronautes});
             })
     }
     render(){
+        var contenu = '';
+        if(this.state.astronautes.length){
+            contenu = this.state.astronautes.map((astronaute) =>
+                <tr>
+                    <td>{astronaute.nom.toUpperCase()}</td>
+                    <td>{astronaute.prenom}</td>
+                    <td>{astronaute.age}</td>
+                </tr>
+            )
+        }else {
+            contenu = <tr><td colspan="3" class="text-center">Aucune donnée n'existe</td></tr>
+        }
         return (
             <div>
                 <h1>Liste des astronautes</h1>
@@ -27,14 +39,7 @@ class AstronautesShow extends Component{
                         </tr>
                     </thead>
                     <tbody>
-                    {this.state.astronautes.map((astronaute) =>
-                        <tr>
-                            <td>{astronaute.nom}</td>
-                            <td>{astronaute.prenom}</td>
-                            <td>{astronaute.age}</td>
-                        </tr>
-                    )}
-
+                        {contenu}
                     </tbody>
                 </table>
             </div>

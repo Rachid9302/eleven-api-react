@@ -25,9 +25,10 @@ class AstronauteNew extends Component{
             age: this.state.age
         };
 
-        axios.post('http://localhost/eleven-api/web/app_dev.php/new-astronaute', {astronaute})
+        axios.post('http://localhost/eleven-api-react/eleven-api/web/app_dev.php/new-astronaute', {astronaute})
             .then(res =>{
-                console.log(res)
+                console.log(res);
+                console.log(res.data);
             })
     };
 

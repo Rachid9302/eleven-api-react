@@ -55,6 +55,6 @@ class AstronauteController extends Controller
         $em->persist($astronaute);
         $em->flush();
 
-        return new JsonResponse("ok", 200, array('Access-Control-Allow-Origin'=> '*'));
+        return new JsonResponse("ok", 201);
     }
 }
