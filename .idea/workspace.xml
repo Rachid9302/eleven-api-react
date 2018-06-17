@@ -2,22 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4bd37461-8f82-42d9-8fc7-486b3bab9e0b" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/eleven-api/tests/AppBundle/Controller/AstronauteControllerTest.php" />
-      <change beforePath="$PROJECT_DIR$/.idea/eleven-api-react.iml" afterPath="$PROJECT_DIR$/.idea/eleven-api-react.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" afterPath="$PROJECT_DIR$/.idea/php.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/eleven-api/app/.htaccess" afterPath="$PROJECT_DIR$/eleven-api/app/.htaccess" />
-      <change beforePath="$PROJECT_DIR$/eleven-api/app/config/config.yml" afterPath="$PROJECT_DIR$/eleven-api/app/config/config.yml" />
-      <change beforePath="$PROJECT_DIR$/eleven-api/app/config/packages/nelmio_cors.yaml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/eleven-api/composer.json" afterPath="$PROJECT_DIR$/eleven-api/composer.json" />
-      <change beforePath="$PROJECT_DIR$/eleven-api/composer.lock" afterPath="$PROJECT_DIR$/eleven-api/composer.lock" />
-      <change beforePath="$PROJECT_DIR$/eleven-api/src/.htaccess" afterPath="$PROJECT_DIR$/eleven-api/src/.htaccess" />
-      <change beforePath="$PROJECT_DIR$/eleven-api/src/AppBundle/Controller/AstronauteController.php" afterPath="$PROJECT_DIR$/eleven-api/src/AppBundle/Controller/AstronauteController.php" />
-      <change beforePath="$PROJECT_DIR$/eleven-api/src/AppBundle/DataFixtures/AppFixtures.php" afterPath="$PROJECT_DIR$/eleven-api/src/AppBundle/DataFixtures/AppFixtures.php" />
-      <change beforePath="$PROJECT_DIR$/eleven-api/src/AppBundle/Tests/Controller/AstronauteControllerTest.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/eleven-api/tests/AppBundle/Controller/DefaultControllerTest.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/eleven-react/src/components/astronaute-new.jsx" afterPath="$PROJECT_DIR$/eleven-react/src/components/astronaute-new.jsx" />
-      <change beforePath="$PROJECT_DIR$/eleven-react/src/components/astronautes-show.jsx" afterPath="$PROJECT_DIR$/eleven-react/src/components/astronautes-show.jsx" />
+      <change beforePath="$PROJECT_DIR$/eleven-api/tests/AppBundle/Controller/AstronauteControllerTest.php" afterPath="$PROJECT_DIR$/eleven-api/tests/AppBundle/Controller/AstronauteControllerTest.php" />
+      <change beforePath="$PROJECT_DIR$/eleven-api/tests/AppBundle/Entity/AstronauteEntityTest.php" afterPath="$PROJECT_DIR$/eleven-api/tests/AppBundle/Entity/AstronauteEntityTest.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -41,11 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AstronauteControllerTest.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AstronauteControllerTest.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/eleven-api/tests/AppBundle/Controller/AstronauteControllerTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state relative-caret-position="249">
+              <caret line="58" column="61" lean-forward="false" selection-start-line="58" selection-start-column="61" selection-end-line="58" selection-end-column="61" />
               <folding>
                 <element signature="e#46#78#0#PHP" expanded="true" />
               </folding>
@@ -56,8 +42,8 @@
       <file leaf-file-name="AstronauteController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/eleven-api/src/AppBundle/Controller/AstronauteController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="32" />
+            <state relative-caret-position="587">
+              <caret line="47" column="16" lean-forward="false" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="30" />
               <folding>
                 <element signature="e#40#72#0#PHP" expanded="true" />
               </folding>
@@ -65,11 +51,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AstronauteEntityTest.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AstronauteEntityTest.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/eleven-api/tests/AppBundle/Entity/AstronauteEntityTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+            <state relative-caret-position="-11">
+              <caret line="23" column="41" lean-forward="false" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
               <folding>
                 <element signature="e#42#74#0#PHP" expanded="true" />
               </folding>
@@ -118,6 +104,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>devSer</find>
+      <find>logout</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -146,8 +133,8 @@
         <option value="$PROJECT_DIR$/eleven-react/src/components/astronaute-new.jsx" />
         <option value="$PROJECT_DIR$/eleven-api/Tests/AppBundle/Controller/AstronauteControllerTest.php" />
         <option value="$PROJECT_DIR$/eleven-api/Tests/AppBundle/Entity/AstronauteEntityTest.php" />
-        <option value="$PROJECT_DIR$/eleven-api/tests/AppBundle/Controller/AstronauteControllerTest.php" />
         <option value="$PROJECT_DIR$/eleven-api/tests/AppBundle/Entity/AstronauteEntityTest.php" />
+        <option value="$PROJECT_DIR$/eleven-api/tests/AppBundle/Controller/AstronauteControllerTest.php" />
       </list>
     </option>
   </component>
@@ -336,7 +323,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.file-colors" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../eleven2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../api-eleven" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -365,12 +352,12 @@
       <updated>1529143530051</updated>
       <workItem from="1529143531436" duration="10933000" />
       <workItem from="1529177679179" duration="10658000" />
-      <workItem from="1529259890619" duration="6444000" />
+      <workItem from="1529259890619" duration="9570000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28035000" />
+    <option name="totallyTimeSpent" value="31161000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="383" y="332" width="1366" height="696" extended-state="6" />
@@ -410,7 +397,7 @@
           <line>24</line>
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -656,16 +643,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eleven-api/src/AppBundle/Controller/AstronauteController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="32" />
-          <folding>
-            <element signature="e#40#72#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/eleven-react/src/components/astronaute-new.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="53">
@@ -700,22 +677,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eleven-api/tests/AppBundle/Controller/AstronauteControllerTest.php">
+    <entry file="file://$PROJECT_DIR$/eleven-api/src/AppBundle/Controller/AstronauteController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state relative-caret-position="587">
+          <caret line="47" column="16" lean-forward="false" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="30" />
           <folding>
-            <element signature="e#46#78#0#PHP" expanded="true" />
+            <element signature="e#40#72#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/eleven-api/tests/AppBundle/Entity/AstronauteEntityTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        <state relative-caret-position="-11">
+          <caret line="23" column="41" lean-forward="false" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
           <folding>
             <element signature="e#42#74#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eleven-api/tests/AppBundle/Controller/AstronauteControllerTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="58" column="61" lean-forward="false" selection-start-line="58" selection-start-column="61" selection-end-line="58" selection-end-column="61" />
+          <folding>
+            <element signature="e#46#78#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>

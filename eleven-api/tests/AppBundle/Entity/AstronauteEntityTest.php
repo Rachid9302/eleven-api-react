@@ -3,9 +3,9 @@
 namespace tests\AppBundle\Entity;
 
 use AppBundle\Entity\Astronaute;
-use PHPUnit\Framework\TestCase;
+use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 
-class AstronauteEntityTest extends TestCase
+class AstronauteEntityTest extends WebTestCase
 {
     /**
      * @var EntityManager
