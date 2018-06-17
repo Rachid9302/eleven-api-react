@@ -17,9 +17,11 @@ class AstronauteController extends Controller
      * @return JsonResponse
      * @Route("/astronautes", name="astronautes")
      * @Method({"GET"})
+     * Fonction qui permet d'afficher tous les astronautes
      */
     public function getAstronautesAction(Request $request)
     {
+        // appel à doctrine pour récupérater de tout les astronautes de la base de données
         $em = $this->getDoctrine()->getManager();
         $astronautes = $em->getRepository(Astronaute::class)->findAll();
 
@@ -30,9 +32,11 @@ class AstronauteController extends Controller
      * @return JsonResponse
      * @Route("/astronaute/{id}", name="astronaute")
      * @Method({"GET"})
+     * Fonction qui permet d'afficher un astronaute en particulier grâce à l'id récupéré
      */
     public function getAstronauteAction(Request $request, $id)
     {
+        // appel à doctrine pour récupérer un astrontaute grâce à l'id en paramètre
         $em = $this->getDoctrine()->getManager();
         $astronaute = $em->getRepository(Astronaute::class)->find($id);
 
@@ -43,9 +47,11 @@ class AstronauteController extends Controller
      * @return JsonResponse
      * @Route("/new-astronaute", name="astronaute_new")
      * @Method({"POST"})
+     * Fonction qui permet d'ajouter un astronaute
      */
     public function setNewAstronauteAction(Request $request)
     {
+        // création d'un astronaute et on set les valeur saisie dans le formulaire
         $astronaute = new Astronaute();
         $em = $this->getDoctrine()->getManager();
         $astronaute
@@ -55,6 +61,6 @@ class AstronauteController extends Controller
         $em->persist($astronaute);
         $em->flush();
 
-        return new JsonResponse("ok", 201);
+        return new JsonResponse("ok", 200);
     }
 }

@@ -3,12 +3,14 @@ import axios from 'axios';
 
 
 class AstronauteNew extends Component{
+    // initialisation des attributs d'un astronaute
     state = {
         nom: '',
         prenom: '',
         age: 0
     };
 
+    // on set les valeurs saisie
     handleChange = event => {
         this.setState({
             nom: event.target.value.nom,
@@ -17,6 +19,7 @@ class AstronauteNew extends Component{
         });
     };
 
+    // création d'un nouvelle astronaute et on associe a l'astronaute les valeurs setter précédemment
     handleSubmit = event => {
         event.preventDefault();
         const astronaute = {
@@ -25,7 +28,9 @@ class AstronauteNew extends Component{
             age: this.state.age
         };
 
-        axios.post('http://localhost/eleven-api-react/eleven-api/web/app_dev.php/new-astronaute', {astronaute})
+
+        // on envoie l'objet astronaute en parametre à l'url de l'api
+        axios.post('http://localhost/eleven-api-react/eleven-api/web/app_dev.php/new-astronaute', astronaute)
             .then(res =>{
                 console.log(res);
                 console.log(res.data);
@@ -37,19 +42,19 @@ class AstronauteNew extends Component{
             <div>
                 <h1>Ajouter un nouvel astronaute</h1>
                 <form onSubmit={this.handleSubmit}>
-                    <div class="form-group">
-                        <label class="control-label">Nom</label>
-                        <input type="text" name="nom" class="form-control" onChange={this.handleChange}/>
+                    <div className="form-group">
+                        <label className="control-label">Nom</label>
+                        <input type="text" name="nom" className="form-control" onChange={this.handleChange}/>
                     </div>
-                    <div class="form-group">
-                        <label class="control-label">Prenom</label>
-                        <input type="text" name="prenom" class="form-control" onChange={this.handleChange}/>
+                    <div className="form-group">
+                        <label className="control-label">Prenom</label>
+                        <input type="text" name="prenom" className="form-control" onChange={this.handleChange}/>
                     </div>
-                    <div class="form-group">
-                        <label class="control-label">Age</label>
-                        <input type="number" name="age" class="form-control" onChange={this.handleChange}/>
+                    <div className="form-group">
+                        <label className="control-label">Age</label>
+                        <input type="number" name="age" className="form-control" onChange={this.handleChange}/>
                     </div>
-                    <button type="submit" class="btn btn-primary btn-lg">Ajouter</button>
+                    <button type="submit" className="btn btn-primary btn-lg btn-block">Ajouter</button>
                 </form>
             </div>
         )

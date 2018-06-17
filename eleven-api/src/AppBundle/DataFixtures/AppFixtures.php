@@ -10,7 +10,7 @@ class AppFixtures extends Fixture
 {
     public function load(ObjectManager $manager)
     {
-
+        // création d'astronaute avec des valeurs saisie pour les générer en base de données
         $astronaute1 = new Astronaute();
         $astronaute1->setNom('Pesquet');
         $astronaute1->setPrenom('Thomas');
